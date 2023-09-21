@@ -1,0 +1,553 @@
+/*
+font-family: 'Cookie', cursive;
+font-family: 'Raleway', sans-serif;
+*/ 
+body {
+	font-family: 'Raleway', sans-serif;
+	margin: 0px;
+	background-color: #2a3b40;
+	color: #2a3b40;
+
+}
+
+
+
+.btn:hover, .btn:active {
+  background-color: #2a3b40;
+  color: #fff;
+  cursor: pointer;
+	}
+
+	a.price:hover, a.price:active {
+  color: #fff;
+}
+a.nav_icon:hover, a.nav_icon:active {
+  color: #fff;
+}
+
+	.white-text {
+	color: #fff !important;
+	}
+
+	.container {
+	width: 1440px;
+	margin: 0 auto;
+	}
+
+	h5 {
+		font-family: 'Raleway', sans-serif;
+		font-weight: 700;
+		font-size: 20px;
+		margin: 0 auto;
+		margin-bottom: 20px;
+
+	}
+
+	h4 {
+		margin: 0px;
+		font-size: 25px;
+		font-weight: 700;
+	}
+
+	h3 {
+		margin: 0px 0px 30px 0px;
+		font-size: 35px;
+		font-weight: 700;
+	}
+
+.h1 {
+		margin: 0px;
+		font-size: 80px;
+		font-weight: 700;
+		max-height: 25px;
+	}
+
+	h1 {
+		margin: 0px;
+		font-size: 80px;
+		font-weight: 700;
+	}
+
+	p {
+		margin: 0px;
+		font-size: 15px;
+		font-weight: 400;
+		line-height: 25px;
+	}
+
+
+/*--------------------------Header-------------------------------*/
+	.banner-img {
+  background-image: url("images/banner-image.jpg");
+  background-color: #2a3b40;;
+  width: 1440px;
+  min-height: 1000px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.header {
+	min-height: 795px;
+	margin: 0 auto;
+}
+
+.top-bar {
+	padding-top: 25px;
+	padding-left: 177px}
+
+.logo {
+	color: #d2d7d9;
+	}
+
+.logo-section {
+	float: left;
+}
+
+ul.nav {
+	padding-left: 0px;
+	padding-right: 172px;
+	margin: 0px;
+}
+
+.navbar {
+	float: right;
+}
+
+ul li.head {
+	font-size: 25px;
+	display: inline-block;
+	list-style-type: none;
+	font-weight: 700;
+	padding: 0px 10px;
+	}
+
+a.nav_icon {
+	text-decoration: none;
+	color: #d2d7d9;
+	}
+
+	.top-banner {
+		width: 755px;
+		min-height: 400px;
+		position: relative;
+		top: 180px;
+		margin: 0 auto;
+		background-color: rgb(219, 221, 222, 0.8);
+		position: relative;
+		text-align: center;
+	}
+
+	.top-banner div {
+		text-align: center;
+		}
+
+	.heading-1 {
+		font-family: 'Cookie', cursive;
+		font-size: 70px;
+		color: #2c3a42;
+		font-weight: 400;
+		padding-top: 80px;
+	}
+
+	.heading-2 {
+		color: #ad6c12;
+		font-size: 50px;
+		font-weight: 600;
+
+	}
+
+	button.read-more {
+	background-color: #fff;
+	border-style: hidden;
+	color: #000;
+	padding: 15px 20px;
+	border-radius: 5px;
+	font-size: 20px;
+	margin-bottom: 30px;
+	position: absolute;
+	top: 60%;
+	left: 38%;
+	}
+
+
+/*--------------------------Header-Closed-------------------------------*/
+
+/*--------------------------flavours-menu-------------------------------*/
+
+.flavours-section {
+	min-height: 490px;
+	background-color: #2a3b40;
+	
+}
+
+.flavours-section-txt {
+	padding-top: 160px;
+	width: 630px;
+	display: inline-block;
+	float: left;
+	padding-left: 95px;
+}
+
+.flavours-section-img {
+	width: 710px;
+	display: inline-block;
+	float: left;
+}
+
+.flavours-img {
+	padding-top: 68px;
+}
+
+.menu-section {
+	min-height: 375px;
+	background-color: #d4d8d9;
+	padding-left: 173px;
+	padding-top: 98px;
+}
+
+.menu-section-1 {
+	width: 397px;
+	float: left;
+
+}
+
+img.menu-section-bullet {
+padding-bottom: 25px;
+width: 16px;
+}
+
+
+
+/*--------------------------flavours-menu-Closed-------------------------------*/
+
+/*----------------------------dishes-section-----------------------------------*/
+
+.dishes-section {
+	margin: 0 auto;
+	}
+
+
+.dishes-bg-img {
+  background-image: url("images/dishes-bg.jpg");
+  background-color: #2a3b40;;
+  width: 1440px;
+  min-height: 1201px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.mid-bg-area {
+		width: 1080px;
+		min-height: 1031px;
+		top: 80px;
+		padding-top: 50px;
+		margin: 0 auto;
+		background-color: rgb(219, 221, 222, 0.8);
+		position: relative;
+		text-align: center;
+}
+
+.dishes-row {
+	color: #304751;
+}
+
+.dish-text {
+	width: 270px;
+	text-align: center;
+	min-height: 274px;
+	display: inline-block;
+	float: left;
+	}
+
+.dish-image {
+	display: inline-block;
+	float: left;
+	max-height: 274px;
+	}
+
+.dish-text h5 {
+	padding-top: 65px;
+}
+
+.dish-text p {
+	padding-bottom: 25px;
+}
+
+a.price {
+  background-color: none;
+  color: #304751;
+  text-decoration: none;
+}
+
+
+
+
+/*--------------------------dishes-section-Closed-------------------------------*/
+
+/*--------------------------New-Menu-1-Section-------------------------------*/
+
+
+.bg-image-1 {
+  background-image: url("images/new-menu-bg-1.jpg");
+  width: 1440px;
+  min-height: 400px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 90px;
+}
+
+.opt-bar {
+	display: inline-block;
+	margin: 0 auto;
+	padding: 45px 15px 0;
+}
+
+.opt-bar p {
+	font-weight: 700;
+}
+
+
+/************************************************/
+
+
+.bg-image-2 {
+  background-image: url("images/new-menu-bg-2.jpg");
+  width: 1440px;
+  min-height: 839px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.new-menu-bg-area {
+		width: 1440px;
+		bottom: 0px;
+		min-height: 600px;
+		margin: 0 auto;
+		background-color: rgb(219, 221, 222, 0.8);
+		position: absolute;
+		padding-top: 40px;
+}
+
+.new-menu-half {
+	display: inline-block;
+	padding-top: 40px;
+	float: left;
+	width: 720px;
+	}
+
+	.new-menu-dish {
+		padding-left: 100px;
+		padding-bottom: 66px;
+	}
+
+	.new-menu-dish-img, .new-menu-dish-img img {
+		display: inline-block;
+		float: left;
+
+		width: 70px;
+		padding-right: 15px;
+	}
+
+/************************************************/
+
+
+.bg-image-3 {
+  background-image: url("images/new-menu-bg-3.jpg");
+  width: 1440px;
+  min-height: 889px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+
+
+
+/*--------------------------New-Menu-1-Section-Closed-------------------------------*/
+
+/*--------------------------Book-Here-Section-Closed-------------------------------*/
+
+.book-here {
+	min-height: 455px;
+	position: relative;
+	}
+
+.book-here-dropdowns {
+	
+}
+
+.heading-3 {
+		font-family: 'Cookie', cursive;
+    font-size: 70px;
+    color: #fff;
+    font-weight: 400;
+    padding-top: 45px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+::placeholder {
+	color: #fff;
+	padding-top: 2px;
+	background-color: #2a3b40;
+	font-family: 'Raleway', sans-serif;
+}
+
+input {
+  color-scheme: dark;
+}
+
+.dropdown-box {
+	  padding: 2px;
+    margin-top: 5px;
+    border-width: 2px;
+    border-color: #fff;
+    background-color: #2a3b40;
+    color: #fff;
+    border-radius: 6px;
+    width: 200px;
+    margin-bottom: 40px;
+    cursor: pointer;
+}
+
+.dropdown-col-1 {
+	width: 520px;
+	display: inline-block;
+	padding-left: 90px;
+}
+
+.dropdown-col-2 {
+	width: 400px;
+	display: inline-block;
+	position: relative;
+	}
+
+.book-here-btn {
+	margin: 0 auto;
+	position: absolute;
+	left: 43%;
+	margin-top: 20px;
+}
+
+
+	/************************************************/
+
+.bg-image-section {
+  background-image: url("images/book-here-bg.jpg");
+  width: 1440px;
+  min-height: 864px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+
+	/************************************************/
+
+.new-menu-bg-area-2 {
+		width: 1440px;
+		bottom: 0px;
+		min-height: 820px;
+		margin: 0 auto;
+		background-color: rgb(219, 221, 222, 0.8);
+		padding-top: 40px;
+}
+
+.dish-box-txt {
+	background-color: #fff;
+	margin-top: -4px;
+	padding: 25px 20px 30px;
+	}
+
+.dish-box {
+	display: inline-block;
+	float: left;
+	padding: 55px 18px 18px;
+}
+
+.read-more-btn-bottom {
+	border: none;
+	background-color: #fff;
+	font-weight: 700;
+	text-decoration: underline 10px #ff992b;
+	padding: 25px 0px 5px;
+}
+
+
+
+/*--------------------------Book-Here-Section-Closed-------------------------------*/
+
+/*--------------------------Social-Section--------------------------------*/
+
+
+.social-section {
+	min-height: 345px;
+	color: #fff;
+	text-align: center;
+}
+
+.social-section p {
+	font-size: 20px;
+	padding-top: 25px;
+	line-height: 30px;
+}
+
+img.social {
+	width: 40px;
+	padding: 35px 10px;
+
+}
+
+/*--------------------------Social-Section-Closed-------------------------------*/
+
+/*--------------------------Footer-Section-------------------------------*/
+
+.footer {
+	min-height: 280px;
+	background-color: #d4d8d9;
+	padding-left: 220px;
+}
+
+.footer div {
+	display: inline-block;
+	float: left;
+
+}
+
+ul li.footer-opt {
+	text-decoration: none;
+	list-style-type: none;
+	font-family: 'Montserrat', sans-serif;
+	line-height: 30px;
+}
+
+ul.footer-text-ul {
+	margin: 0px;
+	padding-left: 0px;
+}
+
+.footer-text {
+	padding-top: 70px;
+}
+
+.about-txt {
+	width: 500px;
+}
+
+.about {
+	width: 200px;
+}
+
+
+/*--------------------------Footer-Section-Closed-------------------------------*/
